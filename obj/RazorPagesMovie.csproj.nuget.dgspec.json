@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/salih.bulmaz/dev/test_env/RazorPagesMovie/RazorPagesMovie.csproj": {}
+  },
+  "projects": {
+    "/Users/salih.bulmaz/dev/test_env/RazorPagesMovie/RazorPagesMovie.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/salih.bulmaz/dev/test_env/RazorPagesMovie/RazorPagesMovie.csproj",
+        "projectName": "RazorPagesMovie",
+        "projectPath": "/Users/salih.bulmaz/dev/test_env/RazorPagesMovie/RazorPagesMovie.csproj",
+        "packagesPath": "/Users/salih.bulmaz/.nuget/packages/",
+        "outputPath": "/Users/salih.bulmaz/dev/test_env/RazorPagesMovie/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/salih.bulmaz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/6.0.104_1/libexec/sdk/6.0.104/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
